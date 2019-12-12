@@ -5,21 +5,21 @@ var board = document.createElement('div');
                 if(x%2==0){
                   if(y%2==0){
                   var board = document.createElement('div');
-                  board.className = "black";
+                  board.className = "white";
                   document.getElementById('chessboard').appendChild(board);
                   }else{
                     var board = document.createElement('div');
-                  board.className = "white";
+                  board.className = "black";
                   document.getElementById('chessboard').appendChild(board);
                   }
                 }else{
                     if(y%2==0){
                   var board = document.createElement('div');
-                  board.className = "white";
+                  board.className = "black";
                   document.getElementById('chessboard').appendChild(board);
                   }else{
                     var board = document.createElement('div');
-                  board.className = "black";
+                  board.className = "white";
                   document.getElementById('chessboard').appendChild(board);
                   }
                 }
