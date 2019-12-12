@@ -10,7 +10,7 @@ function createWindow () {
     }
   })
  
-  win.loadFile('first-page/index.html')
+  win.loadFile('index.html')
 }
  
 app.on('ready', createWindow)
