@@ -6,11 +6,10 @@
     </head>
     <body>
         <div id="chessboard">
-            <script>
+        <script>
             var board = document.createElement('div');
             board.className = "blah";
             for(var x=1; x<9;x++) {
-              if(x%2==0){
                 for(var y=1; y<9;y++) {
                   if(y%2==0){
                   var board = document.createElement('div');
@@ -22,18 +21,8 @@
                   document.getElementById('chessboard').appendChild(board);
                   }
                 }
-              }else{
-                for(var y=1; y<9;y++) {
-                  if(y%2==0){
-                    var board = document.createElement('div');
-                    board.className = "white";
-                    document.getElementById('chessboard').appendChild(board);
-                  }else{
-                    var board = document.createElement('div');
-                    board.className = "black";
-                    document.getElementById('chessboard').appendChild(board);
-                  }
-            }
+              }
+                  
             </script>
       </div>
     </body>
