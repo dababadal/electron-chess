@@ -14,7 +14,7 @@ function createWindow () {
 }
  
 app.on('ready', () => {
-  console.log('Hello from Electron');
+
   createWindow();
-  //const response = dialog.showMessageBox(BrowserWindow);
+  
 });
