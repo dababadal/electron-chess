@@ -1,0 +1,25 @@
+.chessboard
+{
+    height: 100%;
+    width: 100%;
+}
+.tile
+{
+	width: 64px;
+	height: 64px;
+	float: left;
+}
+
+.black
+{
+
+	background-color: #191919;
+  color:white;
+}
+
+.white
+{
+	background-color: #E8EBEC;
+  color:black;
+
+}
