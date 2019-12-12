@@ -1,16 +1,20 @@
-const { app, BrowserWindow } = require('electron')
+const { app, BrowserWindow, dialog  } = require('electron')
  
 function createWindow () {
   let win = new BrowserWindow({
     frame: true,
-    width: 800,
-    height: 600,
+    width: 660,
+    height: 660,
     webPreferences: {
-      nodeIntegration: false
+      nodeIntegration: true
     }
   })
  
   win.loadFile('index.html')
 }
  
-app.on('ready', createWindow)
+app.on('ready', () => {
+  console.log('Hello from Electron');
+  createWindow();
+  //const response = dialog.showMessageBox(BrowserWindow);
+});
