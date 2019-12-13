@@ -1,22 +1,22 @@
 #chessboard
 {
-    height: 570px;
-    width: 570px;
+    height: 270px;
+    width: 270px;
 }
 
 .black
 {
 
-	width: 64px;
-	height: 64px;
+	width: 32px;
+	height: 32px;
 	float: left;
 	background-color: #191919;
 }
 
 .white
 {
-	width: 64px;
-	height: 64px;
+	width: 32px;
+	height: 32px;
 	float: left;
 	background-color: #E8EBEC;
 }
