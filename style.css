@@ -5,6 +5,12 @@
 	border-style: solid;
 	color: indigo;
 }
+#notation {
+	margin-left: 5%;
+	font-size: 10px;
+	color: grey;
+	z-index: 0;
+}
 
 #chess_square
 {

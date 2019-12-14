@@ -26,5 +26,9 @@ for(var x=8; x>=1;x--) {
     document.getElementById('chess_square').appendChild(board);
       }
     }
+    var nots = document.createElement('div');
+    nots.id = "notation";
+    nots.innerHTML = " " + board.className;
+    document.getElementsByClassName(board.className)[0].appendChild(nots);
   }
 }
