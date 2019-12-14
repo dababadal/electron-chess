@@ -4,7 +4,7 @@
     width: 270px;
 }
 
-.black
+#black
 {
 
 	width: 32px;
@@ -13,7 +13,7 @@
 	background-color: #191919;
 }
 
-.white
+#white
 {
 	width: 32px;
 	height: 32px;
