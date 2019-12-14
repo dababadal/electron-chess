@@ -6,24 +6,24 @@ for(var x=8; x>=1;x--) {
     var board = document.createElement('div');
     board.id = "black";
     board.className = file[y] + x;
-    document.getElementById('chessboard').appendChild(board);
+    document.getElementById('chess_square').appendChild(board);
     }else{
       var board = document.createElement('div');
       board.id = "white";
       board.className = file[y] + x;
-    document.getElementById('chessboard').appendChild(board);
+    document.getElementById('chess_square').appendChild(board);
     }
   }else{
       if(y%2==0){
     var board = document.createElement('div');
     board.id = "white";
     board.className = file[y] + x;
-    document.getElementById('chessboard').appendChild(board);
+    document.getElementById('chess_square').appendChild(board);
     }else{
       var board = document.createElement('div');
       board.id = "black";
       board.className = file[y] + x;
-    document.getElementById('chessboard').appendChild(board);
+    document.getElementById('chess_square').appendChild(board);
       }
     }
   }

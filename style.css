@@ -1,7 +1,14 @@
-#chessboard
+#chessboard{
+	height: 256px;
+    width: 256px;
+	border-width: 4.5px;
+	border-style: solid;
+	color: indigo;
+}
+
+#chess_square
 {
-    height: 270px;
-    width: 270px;
+
 }
 
 #black
