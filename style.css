@@ -3,13 +3,15 @@
     width: 256px;
 	border-width: 4.5px;
 	border-style: solid;
-	color: indigo;
+	color: rgb(141, 141, 141);
 }
 #notation {
+	position: relative;
 	margin-left: 5%;
 	font-size: 10px;
 	color: grey;
 	z-index: 0;
+	bottom: -64%;
 }
 
 #chess_square
