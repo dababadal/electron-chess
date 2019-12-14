@@ -1,3 +1,4 @@
+function theboard(){
 for(var x=8; x>=1;x--) {
   for(var y=1; y<9;y++) {
   var file = ['', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h']
@@ -43,3 +44,6 @@ for(var x=8; x>=1;x--) {
       }
   }
 }
+}
+
+theboard();
