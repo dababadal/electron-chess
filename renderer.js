@@ -24,7 +24,7 @@ for(var x=8; x>=1;x--) {
       board.id = "black";
       board.className = file[y] + x;
     document.getElementById('chessboard').appendChild(board);
+      }
     }
-  }
   }
 }
