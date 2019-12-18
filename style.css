@@ -8,16 +8,20 @@
 
 #notH 
 {
-	position: absolute;
-	font-size: 12px;
-	color: gray;
+	font-size: 10px;
+    padding-top: 4%;
+    padding-left: 1.7%;
+    color: rgb(255, 255, 255);
+    position: absolute;
 }
 
 #notV 
 {
-	position: absolute;
-	font-size: 12px;
-	color: gray;
+	font-size: 10px;
+    padding-top: 1.3%;
+    left: 1.4%;
+    color: rgb(255, 255, 255);
+    position: absolute;
 }
 
 #black
