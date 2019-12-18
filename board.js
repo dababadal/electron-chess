@@ -29,21 +29,18 @@ module.exports = {
           }
         }
         //notation
-        var nor = function norr(x, y) {
-          if(x==1){
-            var nots = document.createElement('div');
-            nots.id = "notH";
-            nots.innerHTML = file[y];
-            document.getElementsByClassName(board.className)[0].appendChild(nots);
-          }
-          if(y==1){
-            var nots = document.createElement('div');
-            nots.id = "notV";
-            nots.innerHTML = x;
-            document.getElementsByClassName(board.className)[0].appendChild(nots);
-          }
+        if(x==1){
+          var nots = document.createElement('div');
+          nots.id = "notH";
+          nots.innerHTML = file[y];
+          document.getElementsByClassName(board.className)[0].appendChild(nots);
         }
-        nor(x,y);
+        if(y==1){
+          var nots = document.createElement('div');
+          nots.id = "notV";
+          nots.innerHTML = x;
+          document.getElementsByClassName(board.className)[0].appendChild(nots);
+        }
       }
     }
   }
